@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from huffman import HuffmanCoding 
 import sys
 if len(sys.argv)<3 or sys.argv[1] not in ['-c','-x']:
