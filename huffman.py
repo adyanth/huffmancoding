@@ -213,7 +213,7 @@ class HuffmanCoding:
 			input_path = fname + ".bin"
 		print("Decompressing " + input_path)
 		filename, file_extension = os.path.splitext(input_path)
-		output_path = filename + "_decompressed" + ".txt"
+		output_path = filename + "-extract" + ".txt"
 		if not self.codes:
 			self.init()
 		
